@@ -1,0 +1,45 @@
+#!/bin/sh
+ADB=cp
+cp /system/lib/egl/libEGL_mali.so $(SYSROOT)/usr/lib
+cp /system/lib/egl/libGLESv2_mali.so $(SYSROOT)/usr/lib
+cp /system/lib/libMali.so $(SYSROOT)/usr/lib
+cp /system/lib/libutils.so $(SYSROOT)/usr/lib
+cp /system/lib/libcutils.so $(SYSROOT)/usr/lib
+cp /system/lib/libbinder.so $(SYSROOT)/usr/lib
+cp /system/lib/libui.so $(SYSROOT)/usr/lib
+cp /system/lib/libhardware.so $(SYSROOT)/usr/lib
+cp /system/lib/libhardware_legacy.so $(SYSROOT)/usr/lib
+cp /system/lib/libandroid_runtime.so $(SYSROOT)/usr/lib
+cp /system/lib/libpixelflinger.so $(SYSROOT)/usr/lib
+cp /system/lib/libexpat.so $(SYSROOT)/usr/lib
+cp /system/lib/libnativehelper.so $(SYSROOT)/usr/lib
+cp /system/lib/libnetutils.so $(SYSROOT)/usr/lib
+cp /system/lib/libgui.so $(SYSROOT)/usr/lib
+cp /system/lib/libsurfaceflinger_client.so $(SYSROOT)/usr/lib
+cp /system/lib/libcamera_client.so $(SYSROOT)/usr/lib
+cp /system/lib/libskiagl.so $(SYSROOT)/usr/lib
+cp /system/lib/libskia.so $(SYSROOT)/usr/lib
+cp /system/lib/libsqlite.so $(SYSROOT)/usr/lib
+cp /system/lib/libdvm.so $(SYSROOT)/usr/lib
+cp /system/lib/libETC1.so $(SYSROOT)/usr/lib
+	$(ADB) /system/lib/libsonivox.so $(SYSROOT)/usr/lib
+	$(ADB) /system/lib/libcrypto.so $(SYSROOT)/usr/lib
+	$(ADB) /system/lib/libssl.so $(SYSROOT)/usr/lib
+	$(ADB) /system/lib/libicuuc.so $(SYSROOT)/usr/lib
+	$(ADB) /system/lib/libicui18n.so $(SYSROOT)/usr/lib
+	$(ADB) /system/lib/libmedia.so $(SYSROOT)/usr/lib
+	$(ADB) /system/lib/libwpa_client.so $(SYSROOT)/usr/lib
+	$(ADB) /system/lib/libjpeg.so $(SYSROOT)/usr/lib
+	$(ADB) /system/lib/libnfc_ndef.so $(SYSROOT)/usr/lib
+	$(ADB) /system/lib/libbluedroid.so $(SYSROOT)/usr/lib
+	$(ADB) /system/lib/libdbus.so $(SYSROOT)/usr/lib
+	$(ADB) /system/lib/libemoji.so $(SYSROOT)/usr/lib
+	$(ADB) /system/lib/libm.so $(SYSROOT)/usr/lib
+	$(ADB) /system/lib/libc.so $(SYSROOT)/usr/lib
+	$(ADB) /system/lib/liblog.so $(SYSROOT)/usr/lib
+	$(ADB) /system/lib/libEGL.so $(SYSROOT)/usr/lib
+	$(ADB) /system/lib/libGLESv1_CM.so $(SYSROOT)/usr/lib
+	$(ADB) /system/lib/libdl.so $(SYSROOT)/usr/lib
+cp /system/lib/libstdc++.so $(SYSROOT)/usr/lib
+cp /system/lib/libz.so $(SYSROOT)/usr/lib
+cp /system/lib/libGLESv2.so $(SYSROOT)/usr/lib
