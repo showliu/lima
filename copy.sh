@@ -22,24 +22,24 @@ cp /system/lib/libskia.so $(SYSROOT)/usr/lib
 cp /system/lib/libsqlite.so $(SYSROOT)/usr/lib
 cp /system/lib/libdvm.so $(SYSROOT)/usr/lib
 cp /system/lib/libETC1.so $(SYSROOT)/usr/lib
-	$(ADB) /system/lib/libsonivox.so $(SYSROOT)/usr/lib
-	$(ADB) /system/lib/libcrypto.so $(SYSROOT)/usr/lib
-	$(ADB) /system/lib/libssl.so $(SYSROOT)/usr/lib
-	$(ADB) /system/lib/libicuuc.so $(SYSROOT)/usr/lib
-	$(ADB) /system/lib/libicui18n.so $(SYSROOT)/usr/lib
-	$(ADB) /system/lib/libmedia.so $(SYSROOT)/usr/lib
-	$(ADB) /system/lib/libwpa_client.so $(SYSROOT)/usr/lib
-	$(ADB) /system/lib/libjpeg.so $(SYSROOT)/usr/lib
-	$(ADB) /system/lib/libnfc_ndef.so $(SYSROOT)/usr/lib
-	$(ADB) /system/lib/libbluedroid.so $(SYSROOT)/usr/lib
-	$(ADB) /system/lib/libdbus.so $(SYSROOT)/usr/lib
-	$(ADB) /system/lib/libemoji.so $(SYSROOT)/usr/lib
-	$(ADB) /system/lib/libm.so $(SYSROOT)/usr/lib
-	$(ADB) /system/lib/libc.so $(SYSROOT)/usr/lib
-	$(ADB) /system/lib/liblog.so $(SYSROOT)/usr/lib
-	$(ADB) /system/lib/libEGL.so $(SYSROOT)/usr/lib
-	$(ADB) /system/lib/libGLESv1_CM.so $(SYSROOT)/usr/lib
-	$(ADB) /system/lib/libdl.so $(SYSROOT)/usr/lib
+cp /system/lib/libsonivox.so $(SYSROOT)/usr/lib
+cp /system/lib/libcrypto.so $(SYSROOT)/usr/lib
+cp /system/lib/libssl.so $(SYSROOT)/usr/lib
+cp /system/lib/libicuuc.so $(SYSROOT)/usr/lib
+cp /system/lib/libicui18n.so $(SYSROOT)/usr/lib
+cp /system/lib/libmedia.so $(SYSROOT)/usr/lib
+cp /system/lib/libwpa_client.so $(SYSROOT)/usr/lib
+cp /system/lib/libjpeg.so $(SYSROOT)/usr/lib
+cp /system/lib/libnfc_ndef.so $(SYSROOT)/usr/lib
+cp /system/lib/libbluedroid.so $(SYSROOT)/usr/lib
+cp /system/lib/libdbus.so $(SYSROOT)/usr/lib
+cp /system/lib/libemoji.so $(SYSROOT)/usr/lib
+cp /system/lib/libm.so $(SYSROOT)/usr/lib
+cp /system/lib/libc.so $(SYSROOT)/usr/lib
+cp /system/lib/liblog.so $(SYSROOT)/usr/lib
+cp /system/lib/libEGL.so $(SYSROOT)/usr/lib
+cp /system/lib/libGLESv1_CM.so $(SYSROOT)/usr/lib
+cp /system/lib/libdl.so $(SYSROOT)/usr/lib
 cp /system/lib/libstdc++.so $(SYSROOT)/usr/lib
 cp /system/lib/libz.so $(SYSROOT)/usr/lib
 cp /system/lib/libGLESv2.so $(SYSROOT)/usr/lib
