@@ -1,0 +1,5 @@
+cp: /system/lib/libsurfaceflinger_client.so: No such file or directory
+cp: /system/lib/libskiagl.so: No such file or directory
+cp: /system/lib/libbluedroid.so: No such file or directory
+cp: /system/lib/libdbus.so: No such file or directory
+cp: /system/lib/libemoji.so: No such file or directory
